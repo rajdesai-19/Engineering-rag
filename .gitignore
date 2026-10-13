@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Your documents (never publish source literature)
+knowledge_base/*
+!knowledge_base/.gitkeep
+
+# Local databases and cache (the vector DB stores the full text of indexed documents)
+vector_db/*
+!vector_db/.gitkeep
+
+extracted_images/*
+!extracted_images/.gitkeep
+
+# Offline HuggingFace models
+models/*
+!models/.gitkeep
+*.gguf
+*.bin
+
+# Documents anywhere in the repo
+*.pdf
+
+# Environment variables & secrets
+.env
+
+# Operating System files
+.DS_Store
+Thumbs.db
